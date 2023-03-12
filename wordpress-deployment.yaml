@@ -87,4 +87,5 @@ spec:
             name: wordpress
             port:
               number: 80
-  ingressClassName: nginx
+  ingressClassName: traefik
+  #ingressClassName: nginx
